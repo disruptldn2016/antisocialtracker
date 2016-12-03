@@ -39,6 +39,7 @@ gem 'bson_ext'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry-nav'
 end
 
 group :development do

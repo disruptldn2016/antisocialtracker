@@ -1,5 +1,6 @@
 require_relative 'boot'
 
+require 'rails/mongoid'
 require "active_model/railtie"
 require "action_controller/railtie"
 require "active_job/railtie"
